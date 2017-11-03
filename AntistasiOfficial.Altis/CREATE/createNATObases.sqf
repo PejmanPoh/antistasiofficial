@@ -1,4 +1,5 @@
 if (!isServer and hasInterface) exitWith {};
+//TEST
 
 params ["_marker"];
 private ["_allVehicles","_allGroups","_allSoldiers","_guerSoldiers","_guerVehicles","_markerPos","_guerGroups","_size","_support","_buildings","_statics","_pos1","_pos2","_direction","_group","_spawnPos","_vehicleType","_vehicle","_static","_observer","_counter","_unit","_flag","_maxVehicles","_groupType","_gunnerGroup","_building","_buildingType"];
